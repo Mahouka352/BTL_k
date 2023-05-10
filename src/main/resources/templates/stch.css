@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.left-panel {
+    flex: 1;
+}
+
+.right-panel {
+    flex: 1;
+    margin-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th:first-child {
+    border-top-left-radius: 5px;
+}
+
+th:last-child {
+    border-top-right-radius: 5px;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+

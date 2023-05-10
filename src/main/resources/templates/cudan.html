@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý cư dân</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Quản lý cư dân</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Trang chủ</a></li>
+            <li><a href="canho.html">Quản lý căn hộ</a></li>
+            <li><a href="cudan.html">Quản lý cư dân</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Danh sách cư dân</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Mã cư dân</th>
+            <th>Tên cư dân</th>
+            <th>Số điện thoại</th>
+            <th>Địa chỉ email</th>
+            <th>Căn hộ</th>
+            <th>Ngày đăng ký</th>
+            <th>Thao tác</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>CD001</td>
+            <td>Nguyễn Văn A</td>
+            <td>0987654321</td>
+            <td>nguyenvana@gmail.com</td>
+            <td>101</td>
+            <td>01/05/2023</td>
+            <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+        </tr>
+        <tr>
+            <td>CD002</td>
+            <td>Trần Thị B</td>
+            <td>0123456789</td>
+            <td>tranthib@gmail.com</td>
+            <td>102</td>
+            <td>02/05/2023</td>
+            <td><a href="models/cudan.js">Sửa</a> | <a href="models/cudan.js">Xóa</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <button><a href="models/addCudan.js">Thêm cư dân mới</a></button>
+</main>
+<footer>
+    <p>Trang web quản lý cư dân chung cư</p>
+</footer>
+</body>
+</html>
